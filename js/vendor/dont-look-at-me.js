@@ -25,7 +25,7 @@
         var estudiantes = obtenerListaEstudiantes();
         var nombreEstudiante = prompt("¿Qué nombre desea buscar?");
         var estudianteBuscado = buscar(nombreEstudiante, estudiantes);
-        resultado.innerHTML = mostrar(estudianteBuscado);//mostrarLista
+        resultado.innerHTML = mostrarLista(estudianteBuscado);
     };
     
     var eventoTopTecnico = function (e) {
